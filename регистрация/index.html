@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Отклик</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="" class="logo" />
+    </header>
+    <main>
+      <h1 class="header_text">Регистрация как нуждающийся</h1>
+      <section>
+        <form action="">
+          <div class="container">
+          <div class="form_wrapper">
+            <div>
+              <img src="img/dowload_photo.png" alt="" class="photo_dowload">
+            </div>
+            <div>
+              <div class="wrapper_inputs">
+                <h2>Заполните все обязательные поля</h2>
+                <div class="FIO">
+                  <input type="text" placeholder="Фамилия" />
+                  <input type="text" placeholder="Имя" />
+                  <input type="text" placeholder="Отчество" />
+                </div>
+                <input
+                  type="date"
+                  placeholder="Дата рождения 00.00.00"
+                  class="another_input"
+                />
+                <div class="checkboxes">
+                  <input type="button" value="мужской" id="background_men" onclick="change()"/>
+                  <input type="button" value="женский" id="background_women" />
+                </div>
+                <input
+                  type="text"
+                  placeholder="Город проживания"
+                  class="another_input"
+                />
+                <input
+                  type="text"
+                  placeholder="Фактический адрес проживания"
+                  class="another_input"
+                />
+                <input
+                  type="text"
+                  placeholder="Контактный номер телефона"
+                  class="another_input"
+                />
+                <input
+                  type="email"
+                  placeholder="Электронная почта"
+                  class="another_input"
+                />
+                <input
+                  type="password"
+                  placeholder="Пароль"
+                  class="another_input"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="section_area">
+            <textarea name="" id="" cols="30" rows="10" class="area" placeholder="Дополнительная информация"></textarea>
+            <div class="radio_flex">
+              <input type="radio" class="area_radio"/>
+            <p>
+              Соглашаюсь на <a href="">обработку моих персональных данных</a>, с <a href="">правилами
+                пользования сайтом</a> <br>и принимаю <a href="">Пользовательское соглашение</a>
+            </p>
+            </div>
+            <button type="submit" class="btn_reg">ЗАРЕГИСТРИРОВАТЬСЯ</button>
+          </div>
+        </div>
+        </form>
+      </section>
+    </main>
+    <img src="img/footer.png" alt="" class="footer_image" />
+    <footer>
+      <div class="footer_wrapper">
+        <div>
+          <img src="img/logo.png" alt="" class="footer_logo">
+          <div class="footer_icons">
+            <img src="img/free-icon-youtube-4494485.png" alt="" />
+            <img src="img/free-icon-vkontakte-4494517 1.png" alt="" />
+          </div>
+        </div>
+        <button class="btn_help">ТЕХПОДДЕРЖКА</button>
+        <div class="footer_contacts">
+          <p><img src="img/phone.png" alt="">8 (928) 844-55-55</p>
+          <p><img src="img/mail.png" alt="">Otklick@mail.com</p>
+          <p><img src="img/geolocation_mzbouhtq3i19 1.png" alt="">Москва, ул. Московская 125, оф. 100</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

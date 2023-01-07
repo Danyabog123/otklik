@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Отклик</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_wrapper">
+        <img src="img/logo.png" alt="" class="logo" />
+        <div class="header_links">
+          <img src="img/mail.png" alt="" class="header_mail" />
+          <a href="">Личный кабинет</a>
+          <span class="line"></span>
+          <a href="">Выйти</a>
+        </div>
+      </div>
+    </header>
+    <main>
+        <div class="container">
+          <h2 class="heading_calendar">Календарь Помощи</h2>
+          <div class="wrapper_calendar">
+            <div class="calendar">
+              <div class="month_year">
+                <div class="dpopdowwn_month">
+                  <select class="select_month">
+                    <option id="0">Январь</option>
+                    <option id="1">Февраль</option>
+                    <option id="2">Март</option>
+                    <option id="3">Апрель</option>
+                    <option id="4">Май</option>
+                    <option id="5">Июнь</option>
+                    <option id="6">Июль</option>
+                    <option id="7">Август</option>
+                    <option id="8">Сентябрь</option>
+                    <option id="7">Октябрь</option>
+                    <option id="10">Ноябрь</option>
+                    <option id="11">Декабрь</option>
+                  </select>
+                </div>
+                <div class="dpopdowwn_year">
+                  <select class="select_year">
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                  </select>
+                </div>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <td>Пн</td>
+                    <td>Вт</td>
+                    <td>Ср</td>
+                    <td>Чт</td>
+                    <td>Пт</td>
+                    <td>Сб</td>
+                    <td>Вс</td>
+                  </tr>
+                </thead>
+                <tbody class="dates"></tbody>
+              </table>
+            </div>
+            <div class="list_hours">
+              <p>09:00</p>
+              <p>10:00</p>
+              <p>11:00</p>
+              <p>12:00</p>
+              <p>13:00</p>
+              <p>14:00</p>
+              <p>15:00</p>
+              <p>16:00</p>
+              <p>17:00</p>
+              <p>18:00</p>
+              <p>19:00</p>
+            </div>
+          </div>
+          <button class="submit_button"><img src="img/calendar.png">ВЫБРАТЬ ДЕНЬ</button>
+        </div>
+    </main>
+    <img src="img/footer.png" alt="" class="footer_image" />
+    <footer>
+      <div class="footer_wrapper">
+        <div>
+          <img src="img/logo.png" alt="" class="footer_logo" />
+          <div class="footer_icons">
+            <img src="img/free-icon-youtube-4494485.png" alt="" />
+            <img src="img/free-icon-vkontakte-4494517 1.png" alt="" />
+          </div>
+        </div>
+        <button class="btn_help">ТЕХПОДДЕРЖКА</button>
+        <div class="footer_contacts">
+          <p><img src="img/phone.png" alt="" />8 (928) 844-55-55</p>
+          <p><img src="img/mail.png" alt="" />Otklick@mail.com</p>
+          <p>
+            <img src="img/geolocation_mzbouhtq3i19 1.png" alt="" />Москва, ул.
+            Московская 125, оф. 100
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
